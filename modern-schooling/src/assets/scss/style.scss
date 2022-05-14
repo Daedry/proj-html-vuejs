@@ -8,14 +8,13 @@
 }
 
 #app {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* COMMON */
 body {
-    background-color: $bg-header;
-    color: $text-primary;
+  color: $text-primary;
 }
 
 .container-md {
@@ -59,7 +58,7 @@ a {
   align-items: center;
 }
 
-.flex-column{
+.flex-column {
   flex-direction: column;
 }
 
@@ -86,23 +85,23 @@ a {
   width: 80%;
 }
 
-.col-25{
+.col-25 {
   width: 25%;
 }
 
-.p-relative{
-    position: relative;
+.p-relative {
+  position: relative;
 }
 
-.p-absolute{
-    position: absolute;
+.p-absolute {
+  position: absolute;
 }
 
-.btn{
-    color: white;
-    background-color: $btn;
-    border: none;
-    padding: 1rem 2rem;
-    border-radius: .33rem;
-    font-weight: 600;
+.btn {
+  color: white;
+  background-color: $btn;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 0.33rem;
+  font-weight: 600;
 }

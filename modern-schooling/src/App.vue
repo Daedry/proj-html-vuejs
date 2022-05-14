@@ -93,9 +93,9 @@
           <div class="jumbo-overlay p-absolute">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 105 95"
-              fill="#DEDBD9"
-              version="2.1"
+              viewBox="0 0 100 100"
+              fill="rgba(222, 219, 217, 0.564)"
+              version="1.1"
               preserveAspectRatio="none"
               width="105%"
               height="2000px"
@@ -159,7 +159,10 @@
               </div>
               <div class="box-text">
                 <h4>System administration</h4>
-                <p>Learners are encouraged to study the mechanism and structure of system administration</p>
+                <p>
+                  Learners are encouraged to study the mechanism and structure
+                  of system administration
+                </p>
               </div>
               <button>
                 Start now
@@ -173,7 +176,10 @@
               </div>
               <div class="box-text">
                 <h4>Graphic Design</h4>
-                <p>Have a passion for graphics and arts? Show your talentnts with confidence and self-assertiveness.</p>
+                <p>
+                  Have a passion for graphics and arts? Show your talentnts with
+                  confidence and self-assertiveness.
+                </p>
               </div>
               <button>
                 Start now
@@ -201,6 +207,8 @@ export default {
 @import "@/assets/scss/style.scss";
 
 header {
+  background-color: $bg-main-head;
+
   .nav {
     width: 100%;
     height: 70px;
@@ -253,7 +261,7 @@ header {
     .search {
       input {
         width: 150px;
-        height: 2.85rem;
+        height: 2.5rem;
         border: none;
         border-top-left-radius: 0.4rem;
         border-bottom-left-radius: 0.4rem;
@@ -261,13 +269,13 @@ header {
         text-indent: 1rem;
       }
       .icon-search {
-        width: 46px;
-        height: 46px;
+        width: 40px;
+        height: 40px;
         background-color: white;
         border-top-right-radius: 0.4rem;
         border-bottom-right-radius: 0.4rem;
         .fa-magnifying-glass {
-          padding: 1rem;
+          padding: .75rem;
           color: $btn;
         }
       }
@@ -278,8 +286,9 @@ header {
 main {
   height: 2000px;
   .main-head {
+    background-color: $bg-main-head;
     overflow-x: hidden;
-    padding: 2.75rem 0 6.5rem;
+    padding: 2.75rem 0 2.5rem;
     .head-left {
       .side-text {
         margin-top: 3.75rem;
@@ -304,14 +313,15 @@ main {
 
     .head-right {
       .side-img {
+        position: relative;
         margin-left: 4.3rem;
+        z-index: 1;
       }
     }
     .jumbo-overlay {
-      bottom: -46.5rem;
+      bottom: -49.5rem;
       left: 0rem;
       transform: rotatex(102deg);
-      z-index: -1;
     }
     .side-table {
       width: 2.5rem;
@@ -330,47 +340,51 @@ main {
   }
 
   .main-build-section {
+    margin-top: 4rem;
     .title {
       text-align: center;
       h4 {
         text-transform: uppercase;
         padding: 0 0 0.5rem;
         font-size: 13px;
-        font-weight: 450;
+        font-weight: 400;
         color: #757081;
       }
       h2 {
         text-transform: capitalize;
         font-weight: 600;
+        font-size: 34px;
         span {
           text-transform: uppercase;
           font-weight: 400;
           color: $btn;
+          font-size: 36px;
         }
       }
     }
 
     .boxs {
-      margin: 3rem 0;
+      margin: 4rem 0;
       .box {
         text-align: center;
         // .box-img {
         // }
         .box-text {
-          h4{
+          h4 {
             color: #333;
-            padding-top: .5rem;
+            padding-top: 0.5rem;
             font-weight: 590;
           }
-          p{
-            color: #7E7E7E;
-            margin: .85rem;
+          p {
+            color: #7e7e7e;
+            margin: 0.85rem;
             font-size: 13px;
           }
         }
-        .button {
+        button {
           border: none;
-          color: #918EA6;
+          color: #8e8ca4;
+          background-color: $white;
         }
       }
     }
