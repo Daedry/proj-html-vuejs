@@ -310,274 +310,272 @@
       <!-- /.info-counter -->
 
       <section class="main-featured-courses">
-        <div class="container-lg">
-          <div class="container-md m-auto">
-            <div class="title">
-              <h5>choose where you'd like to begin</h5>
-              <h2>Latest featured <span>Courses</span></h2>
-            </div>
-            <!-- /.title -->
-
-            <div class="cards d-flex wrap j-space-b">
-              <div class="card col-30">
-                <div class="card-img p-relative">
-                  <img src="@/assets/img/course-02-480x298.jpg" alt="" />
-                  <div class="price p-absolute">
-                    <div>$40<span>.00</span></div>
-                  </div>
-                </div>
-                <!-- /.card-img -->
-
-                <div class="card-text">
-                  <div class="user d-flex">
-                    <div class="user-img">
-                      <img
-                        src="@/assets/img/73ee246daf47502812ccefc84bf02898.jpeg"
-                        alt=""
-                      />
-                    </div>
-                    <h5>Blache Fields</h5>
-                  </div>
-
-                  <div class="sub-title">
-                    <h3>Learning to Write as a Professional Author</h3>
-                  </div>
-
-                  <div class="info d-flex">
-                    <div class="lessons">
-                      <font-awesome-icon icon="fa-solid fa-file-lines" />
-                      20 lessons
-                    </div>
-                    <div class="students">
-                      <font-awesome-icon icon="fa-solid fa-user" />
-                      50 Students
-                    </div>
-                  </div>
-                  <!-- /.info -->
-                </div>
-                <!-- /.card-text -->
-              </div>
-              <!-- /.card -->
-
-              <div class="card col-30">
-                <div class="card-img p-relative">
-                  <img src="@/assets/img/stock-full-hd-03-480x298.jpg" alt="" />
-                  <div class="price p-absolute">
-                    <div>Free</div>
-                  </div>
-                </div>
-                <!-- /.card-img -->
-
-                <div class="card-text">
-                  <div class="user d-flex">
-                    <div class="user-img">
-                      <img
-                        src="@/assets/img/d0d504142acfde820eef2f11feea6253.jpeg"
-                        alt=""
-                      />
-                    </div>
-                    <h5>Maggie Strickland</h5>
-                  </div>
-
-                  <div class="sub-title">
-                    <h3>Custom-centric Info-Tech Strategies</h3>
-                  </div>
-
-                  <div class="info d-flex">
-                    <div class="lessons">
-                      <font-awesome-icon icon="fa-solid fa-file-lines" />
-                      24 lessons
-                    </div>
-                    <div class="students">
-                      <font-awesome-icon icon="fa-solid fa-user" />
-                      769 Students
-                    </div>
-                  </div>
-                  <!-- /.info -->
-                </div>
-                <!-- /.card-text -->
-              </div>
-              <!-- /.card -->
-
-              <div class="card col-30">
-                <div class="card-img p-relative">
-                  <img src="@/assets/img/stock-full-hd-04-480x298.jpg" alt="" />
-                  <div class="price p-absolute">
-                    <div>$19<span>.00</span></div>
-                  </div>
-                </div>
-                <!-- /.card-img -->
-
-                <div class="card-text">
-                  <div class="user d-flex">
-                    <div class="user-img">
-                      <img
-                        src="@/assets/img/d0d504142acfde820eef2f11feea6253.jpeg"
-                        alt=""
-                      />
-                    </div>
-                    <h5>Maggie Stickland</h5>
-                  </div>
-
-                  <div class="sub-title">
-                    <h3>Open programming Courses for Everyone: Python</h3>
-                  </div>
-
-                  <div class="info d-flex">
-                    <div class="lessons">
-                      <font-awesome-icon icon="fa-solid fa-file-lines" />
-                      17 lessons
-                    </div>
-                    <div class="students">
-                      <font-awesome-icon icon="fa-solid fa-user" />
-                      62 Students
-                    </div>
-                  </div>
-                  <!-- /.info -->
-                </div>
-                <!-- /.card-text -->
-              </div>
-              <!-- /.card -->
-
-              <div class="card col-30">
-                <div class="card-img p-relative">
-                  <img src="@/assets/img/stock-full-hd-06-480x298.jpg" alt="" />
-                  <div class="price p-absolute">
-                    <div>$26<span>.00</span></div>
-                  </div>
-                </div>
-                <!-- /.card-img -->
-
-                <div class="card-text">
-                  <div class="user d-flex">
-                    <div class="user-img">
-                      <img
-                        src="@/assets/img/73ee246daf47502812ccefc84bf02898.jpeg"
-                        alt=""
-                      />
-                    </div>
-                    <h5>Blache Fields</h5>
-                  </div>
-
-                  <div class="sub-title">
-                    <h3>Academic Listening and Note-taking</h3>
-                  </div>
-
-                  <div class="info d-flex">
-                    <div class="lessons">
-                      <font-awesome-icon icon="fa-solid fa-file-lines" />
-                      14 lessons
-                    </div>
-                    <div class="students">
-                      <font-awesome-icon icon="fa-solid fa-user" />
-                      67 Students
-                    </div>
-                  </div>
-                  <!-- /.info -->
-                </div>
-                <!-- /.card-text -->
-              </div>
-              <!-- /.card -->
-
-              <div class="card col-30">
-                <div class="card-img p-relative">
-                  <img
-                    src="@/assets/img/course-featured-image-01-480x298.jpg"
-                    alt=""
-                  />
-                  <div class="price p-absolute">
-                    <div>$39<span>.00</span></div>
-                  </div>
-                </div>
-                <!-- /.card-img -->
-
-                <div class="card-text">
-                  <div class="user d-flex">
-                    <div class="user-img">
-                      <img
-                        src="@/assets/img/73ee246daf47502812ccefc84bf02898.jpeg"
-                        alt=""
-                      />
-                    </div>
-                    <h5>Blache Fields</h5>
-                  </div>
-
-                  <div class="sub-title">
-                    <h3>Master jQuery in a Short Period of Time</h3>
-                  </div>
-
-                  <div class="info d-flex">
-                    <div class="lessons">
-                      <font-awesome-icon icon="fa-solid fa-file-lines" />
-                      6 lessons
-                    </div>
-                    <div class="students">
-                      <font-awesome-icon icon="fa-solid fa-user" />
-                      51 Students
-                    </div>
-                  </div>
-                  <!-- /.info -->
-                </div>
-                <!-- /.card-text -->
-              </div>
-              <!-- /.card -->
-
-              <div class="card col-30">
-                <div class="card-img p-relative">
-                  <img src="@/assets/img/stock-full-hd-05-480x298.jpg" alt="" />
-                  <div class="price p-absolute">
-                    <div>$59<span>.00</span></div>
-                  </div>
-                </div>
-                <!-- /.card-img -->
-
-                <div class="card-text">
-                  <div class="user d-flex">
-                    <div class="user-img">
-                      <img
-                        src="@/assets/img/73ee246daf47502812ccefc84bf02898.jpeg"
-                        alt=""
-                      />
-                    </div>
-                    <h5>Blache Fields</h5>
-                  </div>
-
-                  <div class="sub-title">
-                    <h3>Introduction to Javascript for Beginners</h3>
-                  </div>
-
-                  <div class="info d-flex">
-                    <div class="lessons">
-                      <font-awesome-icon icon="fa-solid fa-file-lines" />
-                      14 lessons
-                    </div>
-                    <div class="students">
-                      <font-awesome-icon icon="fa-solid fa-user" />
-                      76 Students
-                    </div>
-                  </div>
-                  <!-- /.info -->
-                </div>
-                <!-- /.card-text -->
-              </div>
-              <!-- /.card -->
-            </div>
-            <!-- /.cards -->
-
-            <div class="all-courses d-flex j-content-center">
-              <button class="btn">
-                View all courses
-                <font-awesome-icon icon="fa-solid fa-arrow-right-long" />
-              </button>
-            </div>
-            <!-- /.all-courses -->
-
-            <div class="rounded-bottom p-relative">
-              <img src="@/assets/img/wave.png" alt="" />
-            </div>
+        <div class="container-md m-auto">
+          <div class="title">
+            <h5>choose where you'd like to begin</h5>
+            <h2>Latest featured <span>Courses</span></h2>
           </div>
-          <!-- /.container-md -->
+          <!-- /.title -->
+
+          <div class="cards d-flex wrap j-space-b">
+            <div class="card col-30">
+              <div class="card-img p-relative">
+                <img src="@/assets/img/course-02-480x298.jpg" alt="" />
+                <div class="price p-absolute">
+                  <div>$40<span>.00</span></div>
+                </div>
+              </div>
+              <!-- /.card-img -->
+
+              <div class="card-text">
+                <div class="user d-flex">
+                  <div class="user-img">
+                    <img
+                      src="@/assets/img/73ee246daf47502812ccefc84bf02898.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <h5>Blache Fields</h5>
+                </div>
+
+                <div class="sub-title">
+                  <h3>Learning to Write as a Professional Author</h3>
+                </div>
+
+                <div class="info d-flex">
+                  <div class="lessons">
+                    <font-awesome-icon icon="fa-solid fa-file-lines" />
+                    20 lessons
+                  </div>
+                  <div class="students">
+                    <font-awesome-icon icon="fa-solid fa-user" />
+                    50 Students
+                  </div>
+                </div>
+                <!-- /.info -->
+              </div>
+              <!-- /.card-text -->
+            </div>
+            <!-- /.card -->
+
+            <div class="card col-30">
+              <div class="card-img p-relative">
+                <img src="@/assets/img/stock-full-hd-03-480x298.jpg" alt="" />
+                <div class="price p-absolute">
+                  <div>Free</div>
+                </div>
+              </div>
+              <!-- /.card-img -->
+
+              <div class="card-text">
+                <div class="user d-flex">
+                  <div class="user-img">
+                    <img
+                      src="@/assets/img/d0d504142acfde820eef2f11feea6253.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <h5>Maggie Strickland</h5>
+                </div>
+
+                <div class="sub-title">
+                  <h3>Custom-centric Info-Tech Strategies</h3>
+                </div>
+
+                <div class="info d-flex">
+                  <div class="lessons">
+                    <font-awesome-icon icon="fa-solid fa-file-lines" />
+                    24 lessons
+                  </div>
+                  <div class="students">
+                    <font-awesome-icon icon="fa-solid fa-user" />
+                    769 Students
+                  </div>
+                </div>
+                <!-- /.info -->
+              </div>
+              <!-- /.card-text -->
+            </div>
+            <!-- /.card -->
+
+            <div class="card col-30">
+              <div class="card-img p-relative">
+                <img src="@/assets/img/stock-full-hd-04-480x298.jpg" alt="" />
+                <div class="price p-absolute">
+                  <div>$19<span>.00</span></div>
+                </div>
+              </div>
+              <!-- /.card-img -->
+
+              <div class="card-text">
+                <div class="user d-flex">
+                  <div class="user-img">
+                    <img
+                      src="@/assets/img/d0d504142acfde820eef2f11feea6253.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <h5>Maggie Stickland</h5>
+                </div>
+
+                <div class="sub-title">
+                  <h3>Open programming Courses for Everyone: Python</h3>
+                </div>
+
+                <div class="info d-flex">
+                  <div class="lessons">
+                    <font-awesome-icon icon="fa-solid fa-file-lines" />
+                    17 lessons
+                  </div>
+                  <div class="students">
+                    <font-awesome-icon icon="fa-solid fa-user" />
+                    62 Students
+                  </div>
+                </div>
+                <!-- /.info -->
+              </div>
+              <!-- /.card-text -->
+            </div>
+            <!-- /.card -->
+
+            <div class="card col-30">
+              <div class="card-img p-relative">
+                <img src="@/assets/img/stock-full-hd-06-480x298.jpg" alt="" />
+                <div class="price p-absolute">
+                  <div>$26<span>.00</span></div>
+                </div>
+              </div>
+              <!-- /.card-img -->
+
+              <div class="card-text">
+                <div class="user d-flex">
+                  <div class="user-img">
+                    <img
+                      src="@/assets/img/73ee246daf47502812ccefc84bf02898.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <h5>Blache Fields</h5>
+                </div>
+
+                <div class="sub-title">
+                  <h3>Academic Listening and Note-taking</h3>
+                </div>
+
+                <div class="info d-flex">
+                  <div class="lessons">
+                    <font-awesome-icon icon="fa-solid fa-file-lines" />
+                    14 lessons
+                  </div>
+                  <div class="students">
+                    <font-awesome-icon icon="fa-solid fa-user" />
+                    67 Students
+                  </div>
+                </div>
+                <!-- /.info -->
+              </div>
+              <!-- /.card-text -->
+            </div>
+            <!-- /.card -->
+
+            <div class="card col-30">
+              <div class="card-img p-relative">
+                <img
+                  src="@/assets/img/course-featured-image-01-480x298.jpg"
+                  alt=""
+                />
+                <div class="price p-absolute">
+                  <div>$39<span>.00</span></div>
+                </div>
+              </div>
+              <!-- /.card-img -->
+
+              <div class="card-text">
+                <div class="user d-flex">
+                  <div class="user-img">
+                    <img
+                      src="@/assets/img/73ee246daf47502812ccefc84bf02898.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <h5>Blache Fields</h5>
+                </div>
+
+                <div class="sub-title">
+                  <h3>Master jQuery in a Short Period of Time</h3>
+                </div>
+
+                <div class="info d-flex">
+                  <div class="lessons">
+                    <font-awesome-icon icon="fa-solid fa-file-lines" />
+                    6 lessons
+                  </div>
+                  <div class="students">
+                    <font-awesome-icon icon="fa-solid fa-user" />
+                    51 Students
+                  </div>
+                </div>
+                <!-- /.info -->
+              </div>
+              <!-- /.card-text -->
+            </div>
+            <!-- /.card -->
+
+            <div class="card col-30">
+              <div class="card-img p-relative">
+                <img src="@/assets/img/stock-full-hd-05-480x298.jpg" alt="" />
+                <div class="price p-absolute">
+                  <div>$59<span>.00</span></div>
+                </div>
+              </div>
+              <!-- /.card-img -->
+
+              <div class="card-text">
+                <div class="user d-flex">
+                  <div class="user-img">
+                    <img
+                      src="@/assets/img/73ee246daf47502812ccefc84bf02898.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <h5>Blache Fields</h5>
+                </div>
+
+                <div class="sub-title">
+                  <h3>Introduction to Javascript for Beginners</h3>
+                </div>
+
+                <div class="info d-flex">
+                  <div class="lessons">
+                    <font-awesome-icon icon="fa-solid fa-file-lines" />
+                    14 lessons
+                  </div>
+                  <div class="students">
+                    <font-awesome-icon icon="fa-solid fa-user" />
+                    76 Students
+                  </div>
+                </div>
+                <!-- /.info -->
+              </div>
+              <!-- /.card-text -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.cards -->
+
+          <div class="all-courses d-flex j-content-center">
+            <button class="btn">
+              View all courses
+              <font-awesome-icon icon="fa-solid fa-arrow-right-long" />
+            </button>
+          </div>
+          <!-- /.all-courses -->
+
+          <div class="rounded-bottom p-relative">
+            <img src="@/assets/img/wave.png" alt="" />
+          </div>
         </div>
+        <!-- /.container-md -->
       </section>
       <!-- /.main-featured-courses -->
     </main>
@@ -675,6 +673,7 @@ main {
   height: 5000px;
   .main-head {
     background-color: $bg-main-head;
+    overflow-x: hidden;
     padding: 2.75rem 0 2.5rem;
     .head-left {
       .side-text {
@@ -893,6 +892,7 @@ main {
 
   .main-featured-courses {
     width: 100%;
+    background-image: linear-gradient($white 65%, #f5f5f5 );
     background-color: #f5f5f5;
 
     .container-md {
@@ -986,13 +986,12 @@ main {
       }
 
       .rounded-bottom {
-        // width: 100%;
-        height: 0px;
+        height: 0;
         bottom: 3rem;
         left: -25rem;
         z-index: -1;
         img {
-          width: 175%;
+          width: 173.1%;
         }
       }
     }

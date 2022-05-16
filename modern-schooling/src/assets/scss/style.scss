@@ -38,6 +38,10 @@ a {
   display: flex;
 }
 
+.wrap{
+  flex-wrap: wrap;
+}
+
 .j-content-center {
   justify-content: center;
 }
@@ -63,7 +67,7 @@ a {
 }
 
 .container-md {
-  width: 1200px;
+  width: 1100px;
 }
 .container-lg {
   width: 100%;
@@ -83,6 +87,10 @@ a {
 
 .col-80 {
   width: 80%;
+}
+
+.col-30{
+  width: 31.5%;
 }
 
 .col-25 {
