@@ -868,6 +868,113 @@
         <!-- /.container-md -->
       </section>
       <!-- /.events-section -->
+
+      <section class="testimonials-section p-relative">
+        <div class="container-md m-auto">
+          <div class="title">
+            <h4>people are praising maxcoach</h4>
+            <h2>What make they <span>love us</span></h2>
+          </div>
+          <!-- /title -->
+
+          <div class="cards d-flex">
+            <div class="card col-30">
+              <div class="card-img p-relative">
+                <img
+                  class="p-absolute"
+                  src="@/assets/img/testimonial-avata-02.jpg"
+                  alt=""
+                />
+              </div>
+              <!-- /.card-img -->
+
+              <div class="card-text">
+                <p>
+                  I am free to learn at my own pace, follow my own schedule and
+                  choose th subject i like. Great study portal for people like
+                  me.
+                </p>
+                <h4>mina hollange</h4>
+                <h6>/ Freelancer</h6>
+              </div>
+              <!-- /.card-text -->
+            </div>
+            <!-- /.card -->
+
+            <div class="card col-30">
+              <div class="card-img p-relative">
+                <img
+                  class="p-absolute"
+                  src="@/assets/img/testimonial-avata-04.jpg"
+                  alt=""
+                />
+              </div>
+              <!-- /.card-img -->
+
+              <div class="card-text">
+                <p>
+                  MaxCoach is my best choise. Their tutors are smart and
+                  professional when dealing with students.
+                </p>
+                <h4>madley pondor</h4>
+                <h6>/ IT Specialist</h6>
+              </div>
+              <!-- /.card-text -->
+            </div>
+            <!-- /.card -->
+
+            <div class="card col-30">
+              <div class="card-img p-relative">
+                <img
+                  class="p-absolute"
+                  src="@/assets/img/testimonial-avata-01.jpg"
+                  alt=""
+                />
+              </div>
+              <!-- /.card-img -->
+
+              <div class="card-text">
+                <p>
+                  I am happy with their arrangement of lessons and subjects.
+                  they feflect a scientific investigation.
+                </p>
+                <h4>Luvic dubble</h4>
+                <h6>/ Private Tutor</h6>
+              </div>
+              <!-- /.card-text -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.cards -->
+
+          <div class="dots d-flex j-content-center align-center">
+            <div class="dot i"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <!-- /.dots -->
+        </div>
+        <!-- <div class="main-overlay p-absolute">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 100 100"
+            fill="rgba(222, 219, 217, 0.564)"
+            version="1.1"
+            preserveAspectRatio="none"
+            width="105%"
+            height="500"
+          >
+            <path
+              class="elementor-shape-fill"
+              d="M100,6.21724894e-15 L100,79.7754703 C99.7919362,79.7904198 99.6381974,79.8027262 99.5387835,79.8123897 C99.4256772,79.823384 99.3041657,79.8260447 99.1946857,79.8368479 C98.0926947,79.9455898 96.8446759,80.1450278 96.0566669,80.3249475 C95.1164427,80.5396213 93.6651585,81.0424133 91.7028144,81.8333235 C91.1881986,82.0648898 90.6629331,82.3321219 90.1270181,82.6350198 C89.591103,82.9379178 88.7808989,83.4254899 87.6964058,84.0977361 L84.5866785,86.505496 C83.9146556,87.0756533 83.3999022,87.5308769 83.0424183,87.8711667 C82.6706034,88.2250983 82.3219339,88.542792 81.9256169,88.9363773 C81.5083908,89.3507275 81.0415644,89.840935 80.5708891,90.2075771 C80.5694243,90.2087181 79.879045,90.9348069 79.6966916,91.0931301 C79.6786428,91.1088004 79.619181,91.1783162 79.6134287,91.1806951 C79.5856944,91.1921647 79.4872823,91.3143998 79.2325655,91.5654126 C78.9778486,91.8164253 78.4398261,92.3343122 78.4004716,92.3632772 C78.3852088,92.3745107 78.392749,92.3842318 78.3758447,92.404756 C78.3491619,92.4371525 78.297362,92.4837356 78.2713401,92.5087419 C78.1637093,92.6121724 78.057958,92.7052899 77.9412752,92.8201952 C77.9165042,92.8445888 77.8915476,92.8692319 77.8664085,92.8941052 C77.5163916,93.2404218 77.1310001,93.6313644 76.71875,94.0148783 C75.2657705,95.366577 73.5033569,96.917444 71.8705734,97.9003807 C70.9731573,98.4406259 70.1135532,98.9247458 69.344824,99.2158182 C67.7865314,99.8058517 66.6383515,99.8725302 66.5625,99.8951541 C65.9370497,100.081705 65.026153,100.01931 63.8298099,99.7079704 C64.7659815,99.9771782 64.7185432,99.9771782 63.6874951,99.7079704 C62.9475222,99.3188802 62.4074807,99.0301938 62.0673707,98.8419114 C61.8786639,98.7374448 61.673915,98.5226524 61.4899272,98.3670131 C61.1903999,98.1136365 60.6170457,97.6081983 60.0811799,96.985446 C59.3300042,96.1124731 58.6118857,95.0936327 58.4683822,94.958848 C56.7254333,92.8360206 54.6654939,87.8275853 54.21875,87.4847052 C54.1053147,87.3976425 52.2376405,83.2507606 50,77.6976587 C47.9421254,72.5906776 45.5976116,66.2821297 43.4375,61.1176887 C41.1008376,55.5311461 39.2000795,51.649717 38.6979167,50.8121989 C38.4600638,50.4155028 37.3864888,48.4156228 36.1120817,46.6631568 C35.2477791,45.4746348 34.1630442,44.3456814 33.4375,43.6987268 C32.7119558,43.0517722 31.709781,42.2398109 30.6626803,42.1439083 C30.2356184,42.1047942 29.5251709,42.1444477 29.1201362,42.1439083 C29.0325991,42.1437917 28.1329894,42.1824102 27.1396439,41.8896899 C25.9452799,41.5377333 24.5848063,40.8076085 23.9308866,40.295173 C22.8856727,39.476105 21.6969743,38.3949718 20.9413937,37.4307381 C20.5662547,36.9520047 19.4846561,35.6658156 18.5123771,34.1142672 C18.0017289,33.2993821 16.652903,31.0615524 15.5607311,29.0022448 C14.5429598,27.0832206 13.7630462,25.3063307 13.6950881,25.3220678 C13.5647384,25.3522529 12.1582089,21.8557564 9.63623595,17.1783979 C9.10017282,16.1841924 8.49929577,14.9056754 7.41107192,13.1440893 C7.07564424,12.6011084 6.59991624,11.9188319 6.14393284,11.2720612 C5.88126255,10.8994874 3.6065072,5.72114201 3.39886357,5.35133855 C2.3562704,3.49452944 1.22331587,-0.39125009 -7.81597009e-14,-6.30600005 L100,6.21724894e-15 Z"
+              id="path-1"
+            ></path>
+          </svg>
+        </div> -->
+        <!-- /.container-md -->
+      </section>
+      <!-- /.love_us-section -->
     </main>
   </div>
 </template>
@@ -960,7 +1067,7 @@ header {
 }
 
 main {
-  height: 5000px;
+  height: 8000px;
   .main-head {
     background-color: $bg-main-head;
     overflow-x: hidden;
@@ -1454,15 +1561,13 @@ main {
           border-radius: 0.35rem;
           transition: 0.45s;
           &:hover {
-            transform: scale(1/1.2);
-            box-shadow: 2px 2px 10px 2px #dbd9d9d3;
+            box-shadow: 3px 3px 10px 2px #dbd9d9d3;
             cursor: pointer;
           }
           .text {
             width: 70%;
             padding: 2rem;
             h5 {
-              // padding-top: 1.35rem;
               font-weight: 500;
               color: #969391;
             }
@@ -1495,19 +1600,102 @@ main {
         }
       }
 
-      .foot{
+      .foot {
         text-align: center;
-        h5{
+        h5 {
           font-size: 15px;
           font-weight: 600;
           color: #74716f;
-          span{
+          span {
             font-weight: 700;
             color: $btn;
           }
         }
       }
     }
+  }
+
+  .testimonials-section {
+    background-color: #f8f8f8;
+    margin-top: 5rem;
+    .container-md {
+      padding: 5rem 0 4rem;
+      .title {
+        text-align: center;
+        h4 {
+          font-weight: 500;
+          color: #6e6b69;
+          font-size: 12px;
+          text-transform: uppercase;
+        }
+        h2 {
+          font-size: 36px;
+          font-weight: 600;
+          span {
+            color: $btn;
+            font-weight: 500;
+          }
+        }
+      }
+      .cards {
+        .card {
+          background-color: $white;
+          box-shadow: -1px -1px 15px 1px #e5e3e3d3;
+          margin: 5.5rem 1rem 3rem;
+          border-radius: 0.35rem;
+          text-align: center;
+          .card-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            img {
+              width: 100%;
+              border-radius: 50%;
+              top: -3rem;
+              left: 9rem;
+            }
+          }
+          .card-text {
+            margin-top: -1.5rem;
+            padding: 0 2.5rem 2rem;
+            p {
+              font-weight: 400;
+              font-size: 15.75px;
+              padding: 0 0 1.5rem;
+            }
+            h4 {
+              text-transform: uppercase;
+              font-size: 12.5px;
+            }
+            h6 {
+              padding: 0.75rem 0 0;
+              color: #757081;
+            }
+          }
+        }
+      }
+
+      .dots {
+        height: 20px;
+        .dot {
+          width: 8px;
+          height: 8px;
+          // background-color:#3F3A64;
+          background-color: #b7b5c4;
+          border-radius: 50%;
+          margin: 0 0.35rem;
+        }
+        .i {
+          width: 10px;
+          height: 10px;
+          background-color: #3f3a64;
+          margin-top: -0.65px;
+        }
+      }
+    }
+    // .main-overlay {
+    //   top: 0;
+    // }
   }
 }
 </style>
