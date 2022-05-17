@@ -955,15 +955,16 @@
           </div>
           <!-- /.dots -->
         </div>
+        <!-- /.container-md -->
         <!-- <div class="main-overlay p-absolute">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 100 100"
-            fill="rgba(222, 219, 217, 0.564)"
+            fill="#f8f8f8"
             version="1.1"
             preserveAspectRatio="none"
-            width="105%"
-            height="500"
+            width="200%"
+            height="1500"
           >
             <path
               class="elementor-shape-fill"
@@ -972,7 +973,7 @@
             ></path>
           </svg>
         </div> -->
-        <!-- /.container-md -->
+        <!-- /.main-overlay -->
       </section>
       <!-- /.love_us-section -->
     </main>
@@ -1616,6 +1617,7 @@ main {
   }
 
   .testimonials-section {
+    // background-image: linear-gradient(#fff 10%, #f8f8f8 50%);
     background-color: #f8f8f8;
     margin-top: 5rem;
     .container-md {
@@ -1694,8 +1696,12 @@ main {
       }
     }
     // .main-overlay {
-    //   top: 0;
+    //   top: -44rem;
+    //   right: 33rem;
+    //   transform: rotatex(254deg);
+    //   z-index: -1;
     // }
+    
   }
 }
 </style>
