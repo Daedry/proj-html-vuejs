@@ -3,11 +3,11 @@
     <div class="container-md m-auto p-relative">
       <div class="infos d-flex j-space-b">
         <div class="info-left col-40">
-          <div class="address">
-            <h4>Address</h4>
-            <h5>382 Ne 191st St # 87394 Miami, Fl 33179-3899</h5>
-            <h5>+1(305)547-9909(9amm-%rm EST, Monday-Friday)</h5>
-            <h6>support@maxcoach.com</h6>
+          <div class="address" v-for="(address, n) in info_footer[0]" :key="n">
+            <h4>{{ address.name }}</h4>
+            <h5>{{ address.street }}</h5>
+            <h5>{{ address.cellNumber }}</h5>
+            <h6>{{ address.mail }}</h6>
           </div>
           <div class="icons">
             <font-awesome-icon
@@ -21,25 +21,21 @@
         </div>
         <!-- /.info-left -->
         <div class="info-right col-40 d-flex">
-          <div class="explore">
-            <h4>Explore</h4>
+          <div class="explore" v-for="(exp, n) in info_footer[1]" :key="n">
+            <h4>{{ explore.name }}</h4>
             <ul class="d-flex flex-column wrap">
-              <li>Start here</li>
-              <li>Blog</li>
-              <li>About us</li>
-              <li>Success story</li>
-              <li>Courses</li>
-              <li>Contact us</li>
+              <li v-for="list in explore.list" :key="list.id">
+                {{ explore.list[list.id].name }}
+              </li>
             </ul>
           </div>
           <!-- /.explore -->
-          <div class="information">
-            <h4>Information</h4>
+          <div class="information" v-for="(info, n) in info_footer[2]" :key="n">
+            <h4>{{ info.name }}</h4>
             <ul>
-              <li>Membership</li>
-              <li>Purchaise guide</li>
-              <li>Privacy policy</li>
-              <li>Terms of services</li>
+              <li v-for="list in information.list" :key="list.id">
+              {{ information.list[list.id].name }}
+              </li>
             </ul>
           </div>
           <!-- /.information -->
@@ -63,6 +59,135 @@
 <script>
 export default {
   name: "SiteFooter",
+  data() {
+    return {
+      address: {
+        name: "Address",
+        street: "382 Ne 191st St # 87394 Miami, Fl 33179-3899",
+        cellNumber: "+1(305)547-9909",
+        info_days: "(9am-5pm EST, Monday-Friday)",
+        mail: "support@maxcoach.com",
+      },
+      explore: {
+        name: "Explore",
+        list: [
+          {
+            name: "Start here",
+            id: 0,
+          },
+          {
+            name: "Blog",
+            id: 1,
+          },
+          {
+            name: "About us",
+            id: 2,
+          },
+          {
+            name: "Success story",
+            id: 3,
+          },
+          {
+            name: "Courses",
+            id: 4,
+          },
+          {
+            name: "Contact us",
+            id: 5,
+          },
+        ],
+      },
+      information: {
+        name: "Information",
+        list: [
+          {
+            name: "Membership",
+            id: 0,
+          },
+          {
+            name: "Purchase guide",
+            id: 1,
+          },
+          {
+            name: "Privacy policy",
+            id: 2,
+          },
+          {
+            name: "Terms of services",
+            id: 3,
+          },
+        ],
+      },
+
+      info_footer: [
+        {
+          address: {
+            name: "Address",
+            street: "382 Ne 191st St # 87394 Miami, Fl 33179-3899",
+            cellNumber: "+1(305)547-9909",
+            info_days: "(9am-5pm EST, Monday-Friday)",
+            mail: "support@maxcoach.com",
+          },
+        },
+
+        {
+          explore: {
+            name: "Explore",
+            list: [
+              {
+                name: "Start here",
+                id: 0,
+              },
+              {
+                name: "Blog",
+                id: 1,
+              },
+              {
+                name: "About us",
+                id: 2,
+              },
+              {
+                name: "Success story",
+                id: 3,
+              },
+              {
+                name: "Courses",
+                id: 4,
+              },
+              {
+                name: "Contact us",
+                id: 5,
+              },
+            ],
+          },
+        },
+
+        {
+          information: {
+            name: "Information",
+            list: [
+              {
+                name: "Membership",
+                id: 0,
+              },
+              {
+                name: "Purchase guide",
+                id: 1,
+              },
+              {
+                name: "Privacy policy",
+                id: 2,
+              },
+              {
+                name: "Terms of services",
+                id: 3,
+              },
+            ],
+          },
+        },
+      ],
+    };
+  },
 };
 </script>
 <style lang="scss">

@@ -1,5 +1,5 @@
 <template>
-  <sction class="main-info-counter">
+  <section class="main-info-counter">
     <div class="container-lg">
       <div class="container-md m-auto d-flex j-space-a">
         <div class="finished-session info">
@@ -29,7 +29,7 @@
       <!-- /.container-md -->
     </div>
     <!-- /container-lg -->
-  </sction>
+  </section>
   <!-- /.info-counter -->
 </template>
 
