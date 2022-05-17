@@ -28,9 +28,9 @@
                   Blog <font-awesome-icon icon="fa-solid fa-angle-down" />
                 </li>
                 <li class="p-relative">
-                  <span
-                    >Shop <font-awesome-icon icon="fa-solid fa-angle-down"
-                  /></span>
+                  Shop <font-awesome-icon icon="fa-solid fa-angle-down" />
+                </li>
+                <li class="p-relative">
                   <font-awesome-icon icon="fa-solid fa-cart-shopping" />
                   <div class="counter-expense p-absolute">
                     <div class="counter">0</div>
@@ -63,7 +63,7 @@
                 and help.
               </p>
             </div>
-            <button class="btn">
+            <button class="btn p-relative">
               <font-awesome-icon icon="fa-solid fa-download" /> Download free
               E-books
             </button>
@@ -85,9 +85,9 @@
                 alt=""
               />
             </div>
-            <font-awesome-icon icon="fa-solid fa-life-ring icon" />
-            <font-awesome-icon icon="fa-solid fa-book icon" />
-            <font-awesome-icon icon="fa-solid fa-cart-shopping icon" />
+            <font-awesome-icon icon="fa-solid fa-life-ring icon" class="icon" />
+            <font-awesome-icon icon="fa-solid fa-book icon" class="icon"/>
+            <font-awesome-icon icon="fa-solid fa-cart-shopping icon" class="icon"/>
           </div>
 
           <div class="jumbo-overlay p-absolute">
@@ -1066,7 +1066,11 @@
           <h4>&copy;2020 Maxcoach. All Rights Reserved</h4>
         </div>
         <div class="return-up p-absolute">
-          <div><a href="#"><font-awesome-icon icon="fa-solid fa-arrow-up-long" /></a></div>
+          <div>
+            <a href="#"
+              ><font-awesome-icon icon="fa-solid fa-arrow-up-long"
+            /></a>
+          </div>
         </div>
       </div>
       <!-- /.container-md -->
@@ -1097,29 +1101,43 @@ header {
 
     .nav-list {
       ul {
-        margin-left: 15rem;
+        margin-left: 14rem;
         flex-flow: row wrap;
         font-weight: 500;
         li {
           padding: 0 1rem;
           margin-top: 0.5rem;
-          cursor: pointer;
           font-size: 14px;
+          transition: 0.2s;
+
           .fa-angle-down {
             font-size: 9px;
             vertical-align: middle;
           }
           .fa-cart-shopping {
-            font-size: 18px;
-            margin: 0 1rem;
+            font-size: 16px;
+            margin: 0 0.5rem 0 -1.5rem;
+            transition: 0.11s;
+            &:hover + .counter-expense {
+              background-color: #3f3a64;
+              cursor: pointer;
+              transform: scale(1.022);
+            }
           }
           .counter-expense {
-            bottom: 1rem;
-            right: 1.5rem;
+            bottom: 0.9rem;
+            right: 0.85rem;
             background-color: $btn;
             width: 15px;
             height: 15px;
             border-radius: 50%;
+            transition: 0.11s;
+            &:hover {
+              background-color: #3f3a64;
+              cursor: pointer;
+              transform: scale(1.011);
+            }
+
             .counter {
               text-align: center;
               line-height: 17px;
@@ -1127,6 +1145,11 @@ header {
               font-size: 11px;
               color: $white;
             }
+          }
+          &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+            color: #3f3a64;
           }
         }
       }
@@ -1182,6 +1205,12 @@ main {
         }
       }
       button {
+        z-index: 100;
+        transition: 0.7s;
+        &:hover {
+          background-color: #3f3a64;
+          cursor: pointer;
+        }
         .fa-download {
           padding-right: 0.25rem;
         }
@@ -1192,13 +1221,14 @@ main {
       .side-img {
         position: relative;
         margin-left: 4.3rem;
-        z-index: 1;
+        z-index: 10;
       }
     }
     .jumbo-overlay {
       bottom: -49.5rem;
       left: 0rem;
       transform: rotatex(102deg);
+      z-index: 1;
     }
     .side-table {
       width: 2.5rem;
@@ -1254,7 +1284,7 @@ main {
           }
           p {
             color: #7e7e7e;
-            margin: 0.85rem;
+            margin: 0.75rem 0.85rem;
             font-size: 13px;
           }
         }
@@ -1262,6 +1292,14 @@ main {
           border: none;
           color: #8e8ca4;
           background-color: $white;
+          padding: 0.5rem 1rem;
+          &:hover {
+            cursor: pointer;
+            background-color: #f8f8f8;
+            border-radius: 0.3rem;
+            color: $btn;
+            font-weight: 500;
+          }
         }
       }
     }
@@ -1410,7 +1448,14 @@ main {
 
       .cards {
         .card {
+          padding-bottom: 2rem;
           margin-bottom: 3rem;
+          transition: 0.33s;
+          &:hover {
+            box-shadow: 6px 6px 30px 2.5px #dfdddd;
+            cursor: pointer;
+            transform: scale(1.025);
+          }
           .card-img {
             img {
               border-top-left-radius: 0.33rem;
@@ -1473,6 +1518,12 @@ main {
         margin-top: 2rem;
         button {
           padding: 0.85rem 3.5rem;
+          transition: 0.7s;
+          &:hover {
+            background-color: #3f3a64;
+            cursor: pointer;
+            transform: scale(1.0093);
+          }
         }
       }
 
@@ -1529,6 +1580,14 @@ main {
 
           .start {
             margin: 1.75rem 0;
+            button {
+              transition: 0.66s;
+              &:hover {
+                background-color: #3f3a64;
+                cursor: pointer;
+                transform: scale(1.011);
+              }
+            }
           }
         }
         .box-right {
@@ -1618,6 +1677,12 @@ main {
             margin: 3rem 0;
             button {
               text-transform: capitalize;
+              transition: 0.66s;
+              &:hover {
+                background-color: #3f3a64;
+                cursor: pointer;
+                transform: scale(1.011);
+              }
             }
           }
         }
@@ -1657,6 +1722,7 @@ main {
           &:hover {
             box-shadow: 3px 3px 10px 2px #dbd9d9d3;
             cursor: pointer;
+            background-color: $white;
           }
           .text {
             width: 70%;
@@ -1688,6 +1754,12 @@ main {
               padding-bottom: 0.75rem;
               button {
                 padding: 0.4rem 1.75rem;
+                transition: 0.66s;
+                &:hover {
+                  background-color: #3f3a64;
+                  cursor: pointer;
+                  transform: scale(1.015);
+                }
               }
             }
           }
@@ -1703,6 +1775,11 @@ main {
           span {
             font-weight: 700;
             color: $btn;
+            transition: 0.44s;
+            &:hover {
+              color: #3f3a64;
+              cursor: pointer;
+            }
           }
         }
       }
@@ -1739,6 +1816,13 @@ main {
           margin: 5.5rem 1rem 3rem;
           border-radius: 0.35rem;
           text-align: center;
+          transition: 0.33s;
+          &:hover {
+            color: #3f3a64;
+            cursor: pointer;
+            transform: scale(1.0099);
+          }
+
           .card-img {
             width: 100px;
             height: 100px;
@@ -1748,6 +1832,12 @@ main {
               border-radius: 50%;
               top: -3rem;
               left: 9rem;
+              transition: transform 2s, border 0.28s;
+              &:hover {
+                border: 4px inset $btn;
+                cursor: pointer;
+                transform: scale(1.022);
+              }
             }
           }
           .card-text {
@@ -1761,6 +1851,7 @@ main {
             h4 {
               text-transform: uppercase;
               font-size: 12.5px;
+              cursor: pointer;
             }
             h6 {
               padding: 0.75rem 0 0;
@@ -1779,6 +1870,12 @@ main {
           background-color: #b7b5c4;
           border-radius: 50%;
           margin: 0 0.35rem;
+          transition: 0.33s;
+          &:hover {
+            background-color: #3f3a64;
+            cursor: pointer;
+            transform: scale(1.25);
+          }
         }
         .i {
           width: 10px;
@@ -1817,6 +1914,12 @@ main {
         padding: 1.35rem 0 5.55rem;
         button {
           padding: 0.85rem 4.35rem;
+          transition: 0.66s;
+          &:hover {
+            background-color: #3f3a64;
+            cursor: pointer;
+            transform: scale(1.011);
+          }
         }
       }
       .images {
@@ -1923,13 +2026,18 @@ footer {
         width: 40px;
         height: 40px;
         background-color: $btn;
-        padding: 0.5rem .95rem;
+        padding: 0.5rem 0.95rem;
         border-radius: 50%;
         font-size: 18px;
         cursor: pointer;
-        a{
+        transition: 0.66s;
+        &:hover {
+          background-color: #3f3a64;
+          cursor: pointer;
+          transform: scale(1.022);
+        }
+        a {
           color: $white;
-          
         }
       }
     }
