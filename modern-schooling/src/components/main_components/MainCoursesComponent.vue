@@ -378,7 +378,7 @@ export default {
       margin-top: 2rem;
       button {
         padding: 0.85rem 3.5rem;
-        transition: 0.7s;
+        transition: 0.5s;
         &:hover {
           background-color: #3f3a64;
           cursor: pointer;

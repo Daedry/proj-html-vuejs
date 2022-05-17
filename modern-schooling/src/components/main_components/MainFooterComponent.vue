@@ -62,7 +62,7 @@ export default {
       padding: 1.35rem 0 5.55rem;
       button {
         padding: 0.85rem 4.35rem;
-        transition: 0.66s;
+        transition: 0.5s;
         &:hover {
           background-color: #3f3a64;
           cursor: pointer;

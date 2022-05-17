@@ -228,11 +228,11 @@ export default {
             padding-bottom: 0.75rem;
             button {
               padding: 0.4rem 1.75rem;
-              transition: 0.66s;
+              transition: 0.5s;
               &:hover {
                 background-color: #3f3a64;
                 cursor: pointer;
-                transform: scale(1.015);
+                transform: scale(1.022);
               }
             }
           }

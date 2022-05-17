@@ -90,7 +90,7 @@ export default {
     }
     button {
       z-index: 100;
-      transition: 0.7s;
+      transition: 0.5s;
       &:hover {
         background-color: #3f3a64;
         cursor: pointer;

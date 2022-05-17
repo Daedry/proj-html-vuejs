@@ -149,8 +149,7 @@ export default {
         transition: 0.33s;
         &:hover {
           color: #3f3a64;
-          cursor: pointer;
-          transform: scale(1.0099);
+          transform: scale(1.033);
         }
 
         .card-img {

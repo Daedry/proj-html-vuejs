@@ -141,7 +141,7 @@ export default {};
           margin: 3rem 0;
           button {
             text-transform: capitalize;
-            transition: 0.66s;
+            transition: 0.5s;
             &:hover {
               background-color: #3f3a64;
               cursor: pointer;

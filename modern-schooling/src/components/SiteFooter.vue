@@ -276,12 +276,11 @@ footer {
         padding: 0.5rem 0.95rem;
         border-radius: 50%;
         font-size: 18px;
-        cursor: pointer;
         transition: 0.66s;
         &:hover {
           background-color: #3f3a64;
           cursor: pointer;
-          transform: scale(1.022);
+          transform: scale(1.044);
         }
         a {
           color: $white;
