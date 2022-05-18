@@ -47,17 +47,34 @@ export default {};
       margin-top: 3rem;
       text-align: center;
       .info {
-        padding: 2.5rem 0;
+        padding: 2.5rem 0rem;
+        transition: all 0.44s;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.011);
+        }
+        &:hover div {
+          color: #3f3a64;
+          cursor: pointer;
+          transform: scale(1.022);
+        }
+        &:hover h4 {
+          color: $btn;
+          cursor: pointer;
+          transform: scale(1.22);
+        }
         div {
           font-size: 38px;
           font-weight: 600;
           color: $btn;
+          transition: all 0.88s;
         }
         h4 {
           color: #4e547e;
           font-weight: 600;
           font-size: 12px;
           text-transform: uppercase;
+          transition: all 0.44s;
         }
       }
     }
