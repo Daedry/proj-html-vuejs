@@ -34,36 +34,34 @@
               <h2>Consctruct a <span>Stunnig</span> Career Perspective</h2>
             </div>
 
-            <div class="cards">
-              <div class="card">
+            <div
+              class="cards"
+              v-for="(el, n) in career_perspective"
+              :key="n"
+              @click="openWrapper(el.wrap, el.id)"
+            >
+              <div class="card" v-if="el.wrap === true">
                 <div class="wrap d-flex j-space-b">
-                  <h4>Multiple Platforms Supported for Teaching & Studying</h4>
+                  <h4>
+                    {{ el.title }}
+                  </h4>
                   <font-awesome-icon icon="fa-solid fa-circle-minus" />
                 </div>
 
-                <div class="text">
+                <div
+                  class="text"
+                  :class="el.wrap === true ? 'show-text' : 'hidden-text'"
+                >
                   <p>
-                    MaxCoach supports the act of teaching and learning on
-                    multiple platforms like online of offline via material
-                    download. We know things aren't supposed to be devoured in a
-                    short time, you can always access our knowledge from any
-                    device.
+                    {{ el.text }}
                   </p>
                 </div>
               </div>
               <!-- /.card -->
 
-              <div class="card">
+              <div class="card" v-else>
                 <div class="wrap wrap-plus d-flex j-space-b">
                   <h4>Multiple Course Participation at the Same Time</h4>
-                  <font-awesome-icon icon="fa-solid fa-circle-plus" />
-                </div>
-              </div>
-              <!-- /.card -->
-
-              <div class="card">
-                <div class="wrap wrap-plus d-flex j-space-b">
-                  <h4>Track Study Progress & Deliver Prompt Feedback</h4>
                   <font-awesome-icon icon="fa-solid fa-circle-plus" />
                 </div>
               </div>
@@ -83,7 +81,45 @@
 
 <script>
 export default {
-  name: 'MainCareer'
+  name: "MainCareer",
+  data() {
+    return {
+      // wrap: false,
+      career_perspective: [
+        {
+          title: "Multiple Platforms Supported for Teaching & Studying",
+          text: "MaxCoach supports the act of teaching and learning on multiple platforms like online of offline via material download. We know things aren't supposed to be devoured in ashort time, you can always access our knowledge from any device.",
+          wrap: true,
+          id: 0,
+        },
+        {
+          title: "Multiple Course Participation at the Same Time",
+          text: "MaxCoach supports the act of teaching and learning on multiple platforms like online of offline via material download. We know things aren't supposed to be devoured in ashort time, you can always access our knowledge from any device.",
+          wrap: false,
+          id: 1,
+        },
+        {
+          title: "Track Study Progress & Deliver Prompt Feedback",
+          text: "MaxCoach supports the act of teaching and learning on multiple platforms like online of offline via material download. We know things aren't supposed to be devoured in ashort time, you can always access our knowledge from any device.",
+          wrap: false,
+          id: 2,
+        },
+      ],
+    };
+  },
+  methods: {
+    openWrapper(wra, id) {
+      if (wra === true) {
+        this.career_perspective[id].wrap = false;
+        console.log("result", wra);
+      } else if (wra === false) {
+        this.career_perspective[id].wrap = true;
+        console.log("result", wra);
+      }
+
+      return wra;
+    },
+  },
 };
 </script>
 
@@ -136,17 +172,27 @@ export default {
               width: 95%;
               margin-bottom: 2rem;
               box-shadow: 8px 8px 40px 4px #dfdddd;
+              transition: .5s;
+              &:hover{
+                cursor: pointer;
+                transform: scale(1.011);
+              }
               .wrap {
                 background-color: #62c5b5;
-                border-radius: 0.3rem;
+                border-top-left-radius: 0.3rem;
+                border-top-right-radius: 0.3rem;
                 h4 {
-                  padding: 0.75rem 1rem;
                   color: white;
+                  padding: 0.75rem 1rem;
                   font-weight: 510;
                 }
                 .fa-circle-plus,
                 .fa-circle-minus {
                   padding: 1rem;
+                  &:hover {
+                    transform: scale(1.22);
+                    cursor: pointer;
+                  }
                 }
                 .fa-circle-plus {
                   color: #8c89a2;
@@ -155,14 +201,6 @@ export default {
                   color: $white;
                 }
               }
-
-              .wrap-plus {
-                background-color: $white;
-                h4 {
-                  color: #6e6b69;
-                }
-              }
-
               .text {
                 background-color: rgb(255, 255, 255);
                 p {
@@ -170,6 +208,15 @@ export default {
                   color: #6e6b69;
                   font-weight: 400;
                   font-size: 14px;
+                }
+              }
+
+              .wrap-plus {
+                background-color: $white;
+                h4 {
+                  color: #6e6b69;
+                  padding: 0.75rem 1rem;
+                  font-weight: 510;
                 }
               }
             }
