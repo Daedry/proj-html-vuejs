@@ -61,7 +61,7 @@
 
               <div class="card" v-else>
                 <div class="wrap wrap-plus d-flex j-space-b">
-                  <h4>Multiple Course Participation at the Same Time</h4>
+                  <h4>{{ el.title }}</h4>
                   <font-awesome-icon icon="fa-solid fa-circle-plus" />
                 </div>
               </div>
@@ -172,8 +172,8 @@ export default {
               width: 95%;
               margin-bottom: 2rem;
               box-shadow: 8px 8px 40px 4px #dfdddd;
-              transition: .5s;
-              &:hover{
+              transition: 0.5s;
+              &:hover {
                 cursor: pointer;
                 transform: scale(1.011);
               }
@@ -203,11 +203,23 @@ export default {
               }
               .text {
                 background-color: rgb(255, 255, 255);
+                animation-name: downCard;
+                animation-duration: .55s;
                 p {
                   padding: 1.45rem 1.75rem;
                   color: #6e6b69;
                   font-weight: 400;
                   font-size: 14px;
+                }
+                @keyframes downCard {
+                  0% {
+                    opacity: 0;
+                    height: 0;
+                  }
+                  100% {
+                    opacity: 1;
+                    height: 100%;
+                  }
                 }
               }
 
