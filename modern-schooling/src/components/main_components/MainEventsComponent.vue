@@ -191,12 +191,13 @@ export default {
       .event {
         margin-bottom: 1.75rem;
         background-color: #f8f8f8;
-        border-radius: 0.35rem;
-        transition: 0.45s;
+        border-radius: 0.25rem;
+        transition:all 0.33s;
         &:hover {
           box-shadow: 3px 3px 10px 2px #dbd9d9d3;
           cursor: pointer;
           background-color: $white;
+          border-left: 4px solid $btn;
         }
         .text {
           width: 70%;
@@ -216,12 +217,14 @@ export default {
           .date {
             text-align: center;
             div {
+              margin-bottom: -.5rem;
               font-size: 44px;
               color: $btn;
             }
             h5 {
               text-transform: uppercase;
               color: #333;
+              padding-bottom: .5rem;
             }
           }
           .ticket {
