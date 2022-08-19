@@ -25,16 +25,16 @@
 </template>
 
 <script>
-import MainHead from "@/components/main_components/MainHeadComponent";
-import MainBuild from "@/components/main_components/MainBuildComponent";
-import MainCareer from "@/components/main_components/MainCareerComponent";
-import MainCounter from "@/components/main_components/MainCounterComponent";
-import MainCourses from "@/components/main_components/MainCoursesComponent";
-import MainPace from "@/components/main_components/MainPaceComponent";
-import MainMobile from "@/components/main_components/MainMobileComponent";
-import MainEvents from "@/components/main_components/MainEventsComponent";
-import MainTestimonial from "@/components/main_components/MainTestimonialComponent";
-import MainFooter from "@/components/main_components/MainFooterComponent";
+import MainHead from "@/components/main_components/MainHeadComponent.vue";
+import MainBuild from "@/components/main_components/MainBuildComponent.vue";
+import MainCareer from "@/components/main_components/MainCareerComponent.vue";
+import MainCounter from "@/components/main_components/MainCounterComponent.vue";
+import MainCourses from "@/components/main_components/MainCoursesComponent.vue";
+import MainPace from "@/components/main_components/MainPaceComponent.vue";
+import MainMobile from "@/components/main_components/MainMobileComponent.vue";
+import MainEvents from "@/components/main_components/MainEventsComponent.vue";
+import MainTestimonial from "@/components/main_components/MainTestimonialComponent.vue";
+import MainFooter from "@/components/main_components/MainFooterComponent.vue";
 
 export default {
   name: "SiteMain",

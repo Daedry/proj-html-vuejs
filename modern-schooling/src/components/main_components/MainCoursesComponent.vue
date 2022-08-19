@@ -1,5 +1,5 @@
 <template>
-  <section class="main-featured-courses">
+  <section class="main-featured-courses p-relative">
     <div class="container-md m-auto">
       <div class="title">
         <h5>choose where you'd like to begin</h5>
@@ -261,7 +261,7 @@
       </div>
       <!-- /.all-courses -->
 
-      <div class="rounded-bottom p-relative">
+      <div class="rounded-bottom img-wave">
         <img src="@/assets/img/wave.png" alt="" />
       </div>
     </div>
@@ -388,12 +388,14 @@ export default {
     }
 
     .rounded-bottom {
-      height: 0;
-      bottom: 3rem;
-      left: -25rem;
+      height: 100px;
+      bottom: -6rem;
+      left: 0rem;
       z-index: -1;
+      position: absolute;
+      width: 100%;
       img {
-        width: 162.8%;
+        width: 100%;
       }
     }
   }

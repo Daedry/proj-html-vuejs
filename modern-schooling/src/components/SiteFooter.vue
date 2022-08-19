@@ -268,7 +268,7 @@ footer {
 
     .return-up {
       bottom: 1.33rem;
-      right: -20rem;
+      right: -7rem;
       div {
         width: 40px;
         height: 40px;
